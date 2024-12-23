@@ -9,7 +9,7 @@ function getRandomUser() {
 function fetchUser() {
     getRandomUser()
     
-    fetch(fetchlink).then(response => response.json()).then(async data => {
+    fetch(fetchlink).then(response => response.json()).then(data => {
         if (data.errors) {
             console.error("something went wrong")
         }
