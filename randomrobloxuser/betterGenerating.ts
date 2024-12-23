@@ -1,5 +1,4 @@
 let fetchlink: string = "https://users.roblox.com/v1/users/"
-let userhasfriends: boolean = false;
 let randomID: number = Math.floor(Math.random() * 7737784538)
 
 function getRandomUser() { 
